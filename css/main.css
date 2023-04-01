@@ -356,6 +356,20 @@ select {
 }
 
 /* Styles Footer */
+.hero {
+  background: url("../img/image/hero-main.png") no-repeat center top/cover;
+  height: 100vh;
+}
+
+.hero-body {
+  position: relative;
+}
+.hero-body__main-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 /* @media (max-width: 1440px) */
 /* @media (max-width: 1240px) */
 /* @media (max-width: 992px) */
@@ -420,6 +434,10 @@ select {
   }
   .auth {
     margin-top: 30px;
+  }
+  .auth__btn {
+    width: 100%;
+    justify-content: center;
   }
 }
 /* @media (max-width: 768px) */
