@@ -1,30 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg">
 
- <!-- about-icon -->
-	<symbol id="about-icon" viewBox="0 0 40 40">
+ <!-- arrow -->
+	<symbol id="arrow" viewBox="0 0 14 8">
       <g>
-
-      </g>
-   </symbol>
-
-   <!--  -->
-	<symbol id="" viewBox="">
-      <g>
-         
-      </g>
-   </symbol>
-
-   <!--  -->
-	<symbol id="" viewBox="">
-      <g>
-         
-      </g>
-   </symbol>
-
-   <!--  -->
-	<symbol id="" viewBox="">
-      <g>
-         
+         <path d="M1 7L7 1L13 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </g>
    </symbol>
 
