@@ -1224,6 +1224,18 @@ select {
 .mentors-content {
   overflow: hidden;
   padding-bottom: 125px;
+  position: relative;
+}
+.mentors-content:after {
+  content: "";
+  position: absolute;
+  bottom: -500px;
+  right: -643px;
+  width: 1000px;
+  height: 1000px;
+  background: url("../img/image/fon-about.png") no-repeat center top/cover;
+  z-index: 10;
+  pointer-events: none;
 }
 
 .mentors-content .section-title {
