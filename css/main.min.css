@@ -1411,7 +1411,6 @@ select {
   background: #131313;
   border-radius: 15px;
   overflow: hidden;
-  margin-left: 120px;
   transition: all 0.2s ease 0s;
 }
 .astrolog__content {
@@ -1476,6 +1475,10 @@ select {
 .astrolog__social-item:first-child {
   margin-left: 0;
 }
+.astrolog .swiper-slide {
+  margin-left: 120px;
+}
+
 .astrolog .swiper-slide .astrolog__content {
   opacity: 0.2;
 }
@@ -1484,8 +1487,8 @@ select {
   opacity: 1;
 }
 
-.astrolog__slide.swiper-slide.swiper-slide-thumb-active.swiper-slide-visible.swiper-slide-active {
-  margin-left: 0px;
+.astrolog__slide.swiper-slide.swiper-slide-visible.swiper-slide-active {
+  margin-left: 0;
 }
 
 @media (max-width: 1260px) {
@@ -1645,12 +1648,13 @@ select {
   .astrolog-slider {
     width: 100%;
   }
-  .astrolog {
-    margin-left: 0;
+  .astrolog .swiper-slide {
+    margin-left: 0px;
   }
   .astrolog {
     max-width: 100%;
-    padding-left: 0;
+    margin-left: 0;
+    padding: 0;
   }
   .astrolog__slide {
     margin: 0 auto;
