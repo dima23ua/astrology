@@ -1524,6 +1524,7 @@ select {
   }
   .burger {
     display: flex;
+    z-index: 100;
   }
   .navigation {
     position: fixed;
@@ -1668,6 +1669,12 @@ select {
     width: 340px;
     height: 180px;
     right: -256px;
+  }
+  .header-content {
+    padding: 10px 0;
+  }
+  .main {
+    margin-top: 140px;
   }
   .plan-cards__block {
     width: 100%;
