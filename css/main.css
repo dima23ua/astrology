@@ -2009,6 +2009,58 @@ select {
   margin-left: 0;
 }
 
+.cookie-popup-wrapper {
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  border: 1px solid orangered;
+  background-color: #131313;
+  z-index: 10;
+  padding: 20px 0;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.cookie-popup-wrapper__container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cookie-popup-wrapper.active {
+  bottom: 0;
+}
+
+.cookie-popup-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cookie-popup-body__text {
+  color: #8e54e9;
+}
+
+.cookie-popup-body__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cookie-popup-body__btn {
+  border: 1px solid #8e54e9;
+  padding: 10px;
+  color: #8e54e9;
+}
+
 /* @media (max-width: 992px) */
 
 /* @media (max-width: 768px) */
